@@ -1,5 +1,8 @@
- @import url("./breakpoint_630px.css");
- @import url("./breakpoint_900px.css");
- @import url("./cabecalho.css");
- @import url("./rodape.css");
- @import url("./conteudo.css");
+@import url("./cabecalho.css");
+@import url("./rodape.css");
+@import url("./conteudo.css");
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
