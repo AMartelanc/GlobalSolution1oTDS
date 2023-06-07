@@ -1,38 +1,20 @@
 /*rodape*/
-.rodape{
-    display: flex;
+#rodape{
+    display: grid;
     flex-direction: column;
-    justify-content: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: darkblue;
+    border-top: 0.5rem solid cyan;
+    justify-content: left;
     align-items: center;
-    background-color: gray;
-    border-top: 0.5rem solid white;
+    color: white;
     
 }
 
-.rodape > nav{
-    display: flex;
-
-
-}
-
-.rodape h2 {
-    background-color: gray;
-
-}
-
-.rodape > nav img{
-    display: block;
-    max-width: 25%;
-    margin: 0 auto;
-    padding: 0 auto;
-}
-
-.rodape > nav img:hover{
-    background-color:white;
-
-}
-
-.rodape > nav a{
-    padding: 5% 0;
-    max-width: 100%;
+#integrantes{
+    list-style: none;
+    display:list-item;
+    padding: 5vh;
 }
