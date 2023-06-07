@@ -1,23 +1,40 @@
-#conteudo {
+.conteudo {
     display: flex;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    background-color:white;
     justify-content: center;
     align-items: center;
-    background-color: lightblue;
+}
+#form {
+    background-color: gray;
+}
+fieldset div {
+    display: flex;
+    justify-content: space-between;
+}
+fieldset{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+}
+input[type="radio"] {
+    width: 15px;
+    height: 15px;
 
 }
-
-
-#cadastro {
-    width: 20%;
-    display: flexbox;
-    justify-content: center;
+.escolha{
+    display: flex;
+    justify-content: space-between;
+}
+.escolha div{
     align-items: center;
-    flex-direction: column;
-    background-color: lightgreen;
-    padding: 1.5rem;
-    border: none;
-
 }
