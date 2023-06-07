@@ -1,21 +1,22 @@
 /*rodape*/
 #rodape{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: grid;
+    display: flex;
     flex-direction: column;
     width: 100%;
-    position: fixed;
+    height: 25%;
+    position: relative;
     bottom: 0;
-    background-color: darkblue;
-    border-top: 0.5rem solid cyan;
+    background-color: lightcoral;
+    border-top: 0.2rem solid black;
     justify-content: left;
     align-items: center;
-    color: white;
-    
+    color: black;
+    font-size: 1rem;
 }
 
 #integrantes{
     list-style: none;
     display:list-item;
-    padding: 5vh;
+    padding-left: 2vh;
 }
