@@ -6,6 +6,8 @@
     padding: 1rem;
     align-items: center;
     justify-content: space-between;
+    background-color: lightcoral;
+    border-bottom: 0.2rem solid black;
 }
 
 #logo{
