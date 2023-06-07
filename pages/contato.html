@@ -31,8 +31,73 @@
             </nav> 
         </header>
 
-    <div class="conteudo">
 
+    <div class="conteudo">
+        <form id="form" action="index.html" method="get" onsubmit="return false">
+            <fieldset class="campos">
+                <legend>Contato</legend>
+                <div>
+                    
+                    <p for="idName">Nome</p>
+                    <input type="text" name="txtName" id="idName" placeholder="Nome" pattern="[A-Za-Z]">
+                </div>
+                <div>
+                    <p for="idSurname">Sobrenome</p>
+                    <input type="text" name="txtSurname" id="idSurname" placeholder="Sobrenome" pattern="[A-Za-Z]"> 
+                </div>
+                <div>
+                    
+                    <p for="idEmail">Email</p>
+                    <input type="email" name="txtEmail" id="idEmail" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$">   
+                </div>
+                <div>
+                    
+                    <p for="idTelefone">Telefone (incluia o DDD)</p>
+                    <input type="tel" name="txtTell" id="idTelefone" placeholder="Telefone" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}">
+                </div>
+                <div class="escolha">
+                    <div>
+                    <p>Pais:</p>
+                    </div>
+                    <div>
+                    <input type="radio" name="pais" id="idBrasil">
+                    <label for="brasil">Brasil</label>
+                    <input type="radio" name="pais">
+                    <label for="outros">Outro</label>            
+                    </div>
+                </div>
+                <div>
+                    
+                    <p for="idEstado">Estado</p>
+                    <input list="listaEstado" id="idEstado" name="optionEstado" placeholder="Estado">
+                    <datalist id="listaEstado">
+                        <option value="São Paulo">
+                        <option value="Rio de Janeiro">
+                        <option value="Espirito Santo">
+                        <option value="Minas Gerais">
+                        <option value="outros">
+                    </datalist>
+                </div>
+                <div>
+                    
+                    <p for="idEndereco">Endereço</p>
+                    <input type="text" id="idEndereco" name="txtEndereco" placeholder="Endereço">
+                    
+                </div>
+                <div>
+                    
+                    <p for="idMensagem">Mensagem</p>
+                    <textarea  name="mensagem" minlength="20" maxlength="" cols="50" rows="5" id="mensagem" wrap="hard"></textarea>
+                    
+                </div>
+                <div>
+                    
+                    <button type="submit" id="btnSubmit">Entrar</button>
+                    <input type="reset">
+                </div>
+
+            </fieldset>
+        </form>
     </div>
     
     <footer class="rodape">
