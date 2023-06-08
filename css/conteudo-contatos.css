@@ -5,6 +5,13 @@
     align-items: center;
 
 }
+
+.conteudo img{
+    display: flex;
+    max-width: 30vw;
+    height: auto;
+}
+
 #form {
     background-color:palevioletred;
 }
@@ -13,7 +20,7 @@ fieldset div {
     justify-content: space-between;
 }
 fieldset{
-    width: 300px;
+    width: 50vw;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -24,9 +31,10 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 30vw;
     height: 30px;
 }
+
 input[type="radio"] {
     width: 15px;
     height: 15px;
@@ -38,4 +46,9 @@ input[type="radio"] {
 }
 .escolha div{
     align-items: center;
+}
+
+#mensagem{
+    display: flex;
+    width: 50vw;
 }

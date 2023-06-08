@@ -30,8 +30,11 @@
                 </ul>
             </nav> 
         </header>
+    
 
+    
     <div class="conteudo">
+        <img src="../img/IAG3.webp" alt="Uma placa de circuitos com um broto nascendo ao meio">
         <form id="form" action="index.html" method="get" onsubmit="return false">
             <fieldset class="campos">
                 <legend>Contato</legend>
@@ -53,11 +56,11 @@
                 </div>
                 <div>
                     <p for="idTelefone1">Telefone 1</p>
-                    <input type="tel" name="txtTel1" id="idTelefone1" placeholder=" (XX) XXXXX-XXXX" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}">
+                    <input type="tel" name="txtTel1" id="idTelefone1" placeholder=" (xx) xxxxx-xxxx" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}">
                 </div>
                 <div>
                     <p for="idTelefone2">Telefone 2</p>
-                    <input type="tel" name="txtTel2" id="idTelefone2" placeholder=" (XX) XXXXX-XXXX" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}">
+                    <input type="tel" name="txtTel2" id="idTelefone2" placeholder=" (xx) xxxxx-xxxx" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}">
                 </div>
                 <div class="escolha">
                     <div>
@@ -72,7 +75,7 @@
                 </div>
                 <div>
                     <p for="idEstado">Estado</p>
-                    <input list="listaEstado" id="idEstado" name="optionEstado" placeholder="Estado">
+                    <input list="listaEstado" id="idEstado" name="optionEstado" onfocus="this.value=''" onchange="this.blur();" placeholder="Estado">
                     <datalist id="listaEstado">
                         <option value="São Paulo">
                         <option value="Rio de Janeiro">
@@ -85,17 +88,18 @@
                     <p for="idEndereco">Endereço</p>
                     <input type="text" id="idEndereco" name="txtEndereco" placeholder="Endereço">
                 </div>
-                <div>
+                <div id="mensagem">
                     <p for="idMensagem"></p>
                     <textarea  name="mensagem" minlength="20" maxlength="" cols="50" rows="5" id="mensagem" wrap="hard" placeholder="Digite sua mensagem."></textarea>
                 </div>
                 <div id="btnSubmit">
                     <button type="submit">Enviar</button>
                 </div>
-
             </fieldset>
         </form>
+        <img src="../img/MODELO_CULTIVO2.jpg" alt="Uma cientista em ambiente de cultivo ultravioleta analizando uma planta">  
     </div>
+
     
     <footer id="rodape">
         <div id="integrantes">

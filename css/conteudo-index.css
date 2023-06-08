@@ -1,24 +1,23 @@
-.h1{
+.h2{
     display: flex;
-    width: auto;
+    width: 5vw;
     align-items: center;
     padding: 5px;
 }
 
 #caixa {
     display: flex;
-    padding: 10px;
-    border: 3px solid black;
-    margin: 10px;
+    padding: 5px;
+    border-bottom: 3px solid black;
+    margin: 5px;
     font-size: large;
 }
 
 
 #caixa img {
-    float: left;
-    max-width: 350px;
-    max-height: 250px;
-    object-fit: cover;
+    display: flex;
+    max-width: 50vw;
+    height: 25vh;
 }
 
 #caixa p{
