@@ -1,3 +1,5 @@
+# NOME DO PROJETO: ONGs Finder
+
 # LISTA DE INTEGRANTES DO GRUPO:
 
 1. Alexandre Martelanc - 550247
