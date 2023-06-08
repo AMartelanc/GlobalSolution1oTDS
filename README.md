@@ -12,6 +12,3 @@
 
 URL DE REPOSITÓRIO:
 https://github.com/AMartelanc/GlobalSolution1oTDS
-
-URL DA PÁGINA NO GITPAGES:
-https://
